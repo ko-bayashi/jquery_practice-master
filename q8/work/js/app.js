@@ -45,7 +45,6 @@ $(function () {
         $(".list-inner").remove();
         $(".message").remove();
         $(".lists").before('<div class="message">検索結果が見つかりませんでした。<br>別のキーワードで検索して下さい。</div>');
-        /* 何も入力せずに検索をした場合、下記のelseの中に入っていかない。*/
       } else {
         $(".message").remove();
         $(".lists").before('<div class="message">検索キーワードが有効ではありません。<br>1文字以上で検索して下さい。</div>');
